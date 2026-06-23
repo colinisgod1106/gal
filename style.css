@@ -305,13 +305,6 @@ html {
   filter: brightness(1.1);
 }
 
-.menu-footer {
-  position: absolute;
-  bottom: 20px;
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  letter-spacing: 0.1em;
-}
 
 /* In-game Play UI Overlay */
 #game-play-ui {
