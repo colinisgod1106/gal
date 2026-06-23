@@ -1,0 +1,4231 @@
+{
+  "acts": [
+    {
+      "id": 1,
+      "title": "轉學第一天 — 圖書館的靜謐少女",
+      "metadata": {
+        "location": "白鷺學園 圖書館二樓·面海閱讀區",
+        "time": "四月上旬 轉學首日 午後",
+        "bgm": "「靜謐的午後」— 鋼琴獨奏，淡淡的",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "清隆視角。转学手续办完后的自由时间，在校园里散步时偶然走进图书馆二楼。落地窗外是蔚蓝的海岸线，一位少女独自坐在窗边的座位上，膝盖上摊开着一本厚重的书。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "白鷺學園的圖書館……比想像中大得多。二樓的這個區域，可以看得見海。是個能讓人靜下心來的地方。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "……那個靠窗的座位上，有個女生。從進來到現在已經十五分鐘了，她連姿勢都沒換過。讀的是……外國文學？封面看不懂，應該是原文書。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·抱書，未注意到清隆",
+          "text": "…………",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "她翻頁的動作很輕，像是怕打擾到書本本身。這種讀法……不像是在學習，更像是和書本對話。",
+          "isMonologue": true
+        },
+        {
+          "type": "action",
+          "text": "清隆輕輕走過去，在附近的書架前停下，抽出一本書。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "就坐這附近吧。難得找到這麼安靜的地方。",
+          "isMonologue": true
+        },
+        {
+          "type": "action",
+          "text": "清隆在日和斜對面的座位坐下。翻開書沒多久……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝，抬起頭",
+          "text": "……啊。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "……打擾到妳了？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾·微微搖頭",
+          "text": "不、不會……這裡是公共空間。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "聲音比想像中還輕。她說話的時候會下意識壓低音量，已經完全融入圖書館的氛圍了。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳常來這裡？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·抱書",
+          "text": "……嗯。二樓的這個區域，很少有人上來。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·淡淡的",
+          "text": "很安靜，適合看書。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "原來如此。她是刻意選擇這個人少的角落。這種類型的人……不喜歡被打擾，但也不是討厭人群，只是需要自己的空間。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "我是今天剛轉來的，綾小路。綾小路清隆。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝，然後恢復平靜",
+          "text": "……轉學生？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "我是椎名。椎名日和。……請多指教。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "她說「請多指教」的時候，視線微微避開了。不是沒禮貌，是……不習慣？",
+          "isMonologue": true
+        },
+        {
+          "type": "choice",
+          "id": "1-1",
+          "options": [
+            {
+              "key": "A",
+              "text": "「日和同學也是這所學園的學生嗎？」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "通常",
+                  "text": "……嗯。二年A班。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "同班級？明天開始的校園生活……似乎會比想像中有趣一點。",
+                  "isMonologue": true
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "困擾",
+                  "text": "綾小路同學……是哪個班級呢？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "我也是A班。明天開始請多指教了，椎名同學。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·微微睜大眼",
+                  "text": "……同一個班級？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·淡淡的",
+                  "text": "……那、那就明天見了，綾小路同學。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "B",
+              "text": "「這個位置很棒，能看到海。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·望向窗外",
+                  "text": "嗯……下午三點左右的時候，陽光會剛好灑在這個位置。是最舒服的時段。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "妳連日照角度都觀察過了。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞·微微低下頭",
+                  "text": "不、不是什麼特別的事……只是每天都來，自然就知道了。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "「每天都來」嗎。這個座位對她來說，不只是閱讀的地方，更像是……歸屬。",
+                  "isMonologue": true
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "我是二年A班的綾小路。明天開始會和妳同班。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝",
+                  "text": "……原來如此。我是椎名日和。……請多指教。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "C",
+              "text": "（繼續看書，不多說話）",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "通常·偷偷瞄了清隆一眼",
+                  "text": "……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "action",
+                  "text": "兩人各自安靜地閱讀。只有翻頁聲和海風的聲音。"
+                },
+                {
+                  "type": "action",
+                  "text": "大約三十分鐘後，預備鈴響起。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "通常·合上書本",
+                  "text": "……我得回教室了。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "稍微停頓",
+                  "text": "那個……綾小路同學？轉學生明天應該會到我們班。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·淡淡的",
+                  "text": "我是二年A班的椎名日和。……再見。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "她主動告訴我名字了。雖然花了三十分鐘的沉默。",
+                  "isMonologue": true
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "嗯，明天見，椎名同學。",
+                  "isMonologue": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "act_end"
+        },
+        {
+          "type": "cg_unlock",
+          "cgId": "CG-01",
+          "title": "圖書館的午後",
+          "description": "日和靠窗閱讀的側臉，陽光灑在髮絲上"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "班級的再會 — 鄰座的文靜同學",
+      "metadata": {
+        "location": "二年A班教室",
+        "time": "轉學次日 早晨",
+        "bgm": "「校園的朝氣」— 輕快吉他，略帶青澀感",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "清隆正式轉入二年A班。班主任安排座位時，巧合地（或刻意地）被安排在日和隔壁。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "班導",
+          "expression": null,
+          "text": "綾小路同學，你的座位在……椎名同學旁邊，第四排靠窗。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "靠窗……而且旁邊是她。這種安排，簡直像是GALGAME的開局。不過現實中應該只是巧合。大概。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "打擾了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·抬起頭",
+          "text": "……啊。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·淡淡的",
+          "text": "……真的變成鄰座了呢，綾小路同學。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "昨天就隱約覺得可能會同班。請多指教，椎名同學。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "嗯……請多指教。",
+          "isMonologue": false
+        },
+        {
+          "type": "action",
+          "text": "第一節課結束後，日和從書包裡拿出一本書。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "又是原文書。這次的厚度更驚人了。她到底是什麼語言能力……",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "同學A",
+          "expression": "背景音",
+          "text": "吶吶，聽說轉學生坐在椎名旁邊耶。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "同學B",
+          "expression": "背景音",
+          "text": "椎名又在那裡看書了～完全不跟別人說話呢。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "「又」？所以她在班上是這種形象嗎。文靜、不愛說話、總是一個人看書……",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "……不對。不是「不愛說話」，是「不知道該怎麼開口」。她昨天的反應太慢熱了，如果是討厭社交的人，根本不會告訴我她的名字。",
+          "isMonologue": true
+        },
+        {
+          "type": "action",
+          "text": "午休時間。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳中午都怎麼吃？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·從書中抬起頭",
+          "text": "……咦？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "我、我通常在圖書館吃。帶了便當……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "圖書館可以飲食嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾",
+          "text": "二樓的閱讀區……管理員說只要小心不要弄髒就好。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "已經得到特許了嗎。她真的很重視那個位置。",
+          "isMonologue": true
+        },
+        {
+          "type": "choice",
+          "id": "2-1",
+          "options": [
+            {
+              "key": "A",
+              "text": "「方便讓我一起去嗎？我想熟悉一下校園。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "困擾·微微蹙眉",
+                  "text": "……倒不是不行，但是……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "通常",
+                  "text": "圖書館裡不能吃有味道的東西。綾小路同學的午餐……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "我買了麵包和咖啡。應該沒問題。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·淡淡的",
+                  "text": "……那就好。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞·微微低頭",
+                  "text": "那、那個……如果你不介意的話，我可以帶路。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "B",
+              "text": "「一個人不會寂寞嗎？」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·然後輕輕搖頭",
+                  "text": "不會……我已經習慣了。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·淡淡的",
+                  "text": "而且，有書本陪著我。書本不會讓人覺得寂寞。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "「不會讓人覺得寂寞」……也就是說，她其實感覺過寂寞吧。",
+                  "isMonologue": true
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "那，今天要不要試試看讓人陪？我剛轉來，還沒交到朋友。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞·猶豫了一下",
+                  "text": "……綾小路同學，意外的有點強勢呢。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "只是陳述事實而已。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·淡淡的",
+                  "text": "……那，一起走吧。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "C",
+              "text": "「圖書館的確很適合安靜吃飯。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·點頭",
+                  "text": "嗯……尤其是二樓，沒有人會打擾。可以慢慢吃，然後看書。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "今天我也打算去圖書館。可以坐在妳附近嗎？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "通常",
+                  "text": "……圖書館是公共空間，不用特別問我也沒關係。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "沒有拒絕。而且……她說這句話的時候，嘴角好像微微上揚了一點點。大概只有一毫米。",
+                  "isMonologue": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "scene_desc",
+          "text": "圖書館二樓。兩人並排坐在窗邊，靜靜地吃著午餐。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·打開便當",
+          "text": "……綾小路同學，你轉學的原因是什麼？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "父親的工作。經常搬家，已經習慣了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾",
+          "text": "經常……是多久一次？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "最短半年，最長兩年。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·然後沉默了片刻",
+          "text": "……所以，不打算和任何人深交嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "……被看穿了。她的觀察力，不像外表那麼文靜無害。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳怎麼會這麼想？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·看向窗外",
+          "text": "因為……你說『已經習慣了』的時候，表情沒有變化。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "淡淡的",
+          "text": "像是……在說別人的事情一樣。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "……。這個女生，比我想像的還要敏銳。不是那種外顯的聰明，而是靜靜地、細細地觀察著周圍的一切。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "那妳呢，椎名同學？妳總是一個人在圖書館，也是因為習慣了嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·淡淡的，帶著一絲寂寞",
+          "text": "……嗯。我也『習慣了』。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "兩個「習慣了寂寞」的人，坐在同一個窗邊。這種巧合……該說是命運，還是只是機率問題？",
+          "isMonologue": true
+        },
+        {
+          "type": "act_end"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "圖書館的午後 — 書頁間的距離",
+      "metadata": {
+        "location": "圖書館二樓·面海閱讀區",
+        "time": "一週後的午後",
+        "bgm": "「逐漸縮短的距離」— 鋼琴與小提琴二重奏，溫柔而略帶期待",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "轉學已過一週。清隆和日和形成了每天午休在二樓閱讀區碰面的默契。今天，清隆注意到日和看的是一本他讀過的書。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "……赫塞的《在輪下》？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·抬起頭",
+          "text": "綾小路同學……讀過這本？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "以前讀過德文原版。漢斯的故事……有點沉重。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼睛微微發亮",
+          "text": "你、你能讀德文嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "因為常常轉學，自學了幾門語言。不算精通。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·抱書",
+          "text": "好厲害……我在讀的是日文譯本，但有些段落覺得翻譯得不太對味。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "比如哪裡？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "認真·翻開書本",
+          "text": "這裡……漢斯對海尔纳說的這句話。日文譯本是『你不懂我的心情』，但我覺得原文應該有更細膩的情感……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "她討論書本的時候，整個人都變得不一樣了。平時那種小心翼翼的神情消失不見，取而代之的是認真的光采。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "德文原文是『Du verstehst meine Sehnsucht nicht』。Sehnsucht這個詞……不只是『心情』，更接近『渴望』或『鄉愁』。是一種對遙遠之物的深切思念。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·睜大眼睛",
+          "text": "……『渴望』。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·淡淡的，卻帶著溫度",
+          "text": "這樣就通了。漢斯不是在抱怨對方『不懂』，而是在哀嘆對方無法理解他的『渴望』……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "她理解得很快。而且，她說「渴望」這個詞的時候，視線有一瞬間飄向了窗外的海。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·低下頭",
+          "text": "……啊，對不起。我一說起書就停不下來。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "不會。我覺得這樣的妳比較好。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·臉頰微紅",
+          "text": "……比、比較好？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "比安靜地躲在角落的時候，更有生命力。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·低下頭",
+          "text": "……那種說法，有點犯規呢。",
+          "isMonologue": false
+        },
+        {
+          "type": "choice",
+          "id": "3-1",
+          "options": [
+            {
+              "key": "A",
+              "text": "「以後有不懂的翻譯，可以問我。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·淡淡的",
+                  "text": "……真的可以嗎？會不會麻煩你？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "反正我也沒別的事做。而且……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "能和妳討論書本，比一個人看有趣。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞·微微低頭",
+                  "text": "……那就……拜託你了。綾小路老師。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "『老師』有點太客氣了。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑",
+                  "text": "那……清隆同學？可以這樣叫嗎？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "直接叫名字了。進展比我想像的快。不過……不討厭。",
+                  "isMonologue": true
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "嗯。那我也可以叫妳『日和』嗎？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞·輕輕點頭",
+                  "text": "……嗯。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "B",
+              "text": "「妳有『Sehnsucht』的對象嗎？」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·然後望向窗外",
+                  "text": "……有啊。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·淡淡的，帶著一絲哀愁",
+                  "text": "像是……能一直留在這個地方的渴望。不用擔心明天會改變的渴望。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "原來如此。她害怕變化，害怕失去。所以才躲在圖書館這個不會改變的空間裡。",
+                  "isMonologue": true
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "那妳的渴望……和漢斯不太一樣。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "通常",
+                  "text": "嗯。我的渴望……比較小，但也比較難實現。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "為什麼這麼說？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "淡淡的",
+                  "text": "因為……『不用改變』這件事，本身就是最困難的願望。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "……這句話，讓我有點心痛。因為我太理解了。轉學這麼多次，我早就放棄了「不變」這個念頭。",
+                  "isMonologue": true
+                }
+              ]
+            },
+            {
+              "key": "C",
+              "text": "「我也該多讀點日文文學了。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝",
+                  "text": "清隆同學平常都讀什麼？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "主要是哲學和心理學。為了理解……人。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑",
+                  "text": "理解人？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "轉學太多次了。與其每次都要重新認識人，不如先理解人的共通性。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "困擾",
+                  "text": "這樣……不會很累嗎？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "妳覺得累嗎？每天都來圖書館這件事。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑",
+                  "text": "不會。因為……喜歡。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "「因為喜歡」。簡單的三個字，她說得毫不猶豫。這種單純的執著……有點羨慕。",
+                  "isMonologue": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "scene_desc",
+          "text": "放學後的圖書館。夕陽將二樓染成橘紅色。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·合上書",
+          "text": "……今天謝謝你。關於Sehnsucht的解釋。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "不用謝。我也學到了……妳對書本的認真。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·淡淡的",
+          "text": "那個……明天也會來嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·補充道",
+          "text": "圖書館。我是說……圖書館。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "會啊。這裡已經變成我的固定座位了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·微微點頭",
+          "text": "……嗯。那，明天見。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "她說「明天見」的時候，語氣裡有一點點的期待。大概只有一點點。但足夠讓我記住了。",
+          "isMonologue": true
+        },
+        {
+          "type": "act_end"
+        },
+        {
+          "type": "cg_unlock",
+          "cgId": "CG-02",
+          "title": "Sehnsucht",
+          "description": "夕陽下的圖書館，日和望向窗外的側臉"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "雨天放學後 — 一把傘下的溫度",
+      "metadata": {
+        "location": "校門口 → 車站前商店街",
+        "time": "四月下旬 放學後",
+        "bgm": "「雨天的溫度」— 鋼琴與雨聲，略帶憂傷卻溫柔",
+        "se": "雨聲SE持續"
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "放學後突然下起大雨。清隆在鞋櫃區換鞋時，看到日和一個人站在校門口的屋檐下，望著雨幕發愁。她沒帶傘。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "下雨了。而且看這架勢，短時間內不會停。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "……嗯？那是日和。她沒帶傘嗎？站在那裡已經五分鐘了。",
+          "isMonologue": true
+        },
+        {
+          "type": "action",
+          "text": "清隆撐開傘，走向日和。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "沒帶傘？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·回過頭",
+          "text": "清隆同學……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾·微微低下頭",
+          "text": "早上出門的時候還是晴天……我以為不會下雨。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳家在哪個方向？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "車站那邊。走路大概十五分鐘……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "順路。我送妳。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·連忙搖頭",
+          "text": "不、不用！你在這裡等我跑回去拿傘的話——",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "會淋濕的。而且圖書館離這裡不近。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·微微傾斜傘",
+          "text": "進來吧。一把傘擠兩個人還勉強夠用。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·猶豫了一下",
+          "text": "……那就……麻煩你了。",
+          "isMonologue": false
+        },
+        {
+          "type": "cg_unlock",
+          "cgId": "CG-03",
+          "title": "一把傘下",
+          "description": "清隆撐傘，日和小心翼翼地靠近，肩膀幾乎碰在一起"
+        },
+        {
+          "type": "action",
+          "text": "兩人共撐一把傘走在雨中。傘不大，日和努力不讓自己靠太近，但雨水還是會打濕她的肩膀。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "……妳再靠過來一點。右肩都濕了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞",
+          "text": "沒、沒關係……我不想給你添麻煩……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳這樣反而讓我困擾。我必須把傘往右邊傾斜，左肩也會濕。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾·微微靠近了一點點",
+          "text": "……這樣……可以嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "她小心翼翼地縮短距離的樣子，像是一隻警戒中的小動物。隨時準備逃跑，卻又渴望溫暖。",
+          "isMonologue": true
+        },
+        {
+          "type": "choice",
+          "id": "4-1",
+          "options": [
+            {
+              "key": "A",
+              "text": "「再靠近一點，我不會吃掉妳的。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞·臉頰通紅",
+                  "text": "那、那種說法……很犯規……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞·但稍微靠近了一點",
+                  "text": "……只是因為不想讓你淋濕。才不是因為想靠近你。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "最後那句明顯是傲嬌。沒想到她會有這種反應……有點可愛。",
+                  "isMonologue": true
+                }
+              ]
+            },
+            {
+              "key": "B",
+              "text": "輕輕把傘往她那邊傾斜",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·發現清隆右肩濕了",
+                  "text": "……你的肩膀！都濕透了！",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "困擾·輕輕抓住清隆的衣袖，把自己拉近",
+                  "text": "這樣……兩個人都會感冒的。還是……靠近一點比較好。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "她主動拉住我的衣袖。這大概是她能做到的最大限度的「主動」了。",
+                  "isMonologue": true
+                }
+              ]
+            },
+            {
+              "key": "C",
+              "text": "「妳身上有好聞的味道。是書的味道嗎？」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·然後輕輕笑了",
+                  "text": "……是舊紙張和墨水混在一起的味道吧。圖書館待久了，身上就會有。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "不難聞。讓人覺得……很安靜。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·淡淡的",
+                  "text": "你是第一個這麼說的人。以前有人說過我身上有『霉味』……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "那是對方不懂。這是『知識的味道』。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·輕輕點頭",
+                  "text": "……謝謝你。雖然有點奇怪，但謝謝你。",
+                  "isMonologue": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "scene_desc",
+          "text": "車站前的老書店門口。雨勢漸小。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "……送到這裡就可以了。我家就在前面。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "確定？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "嗯。今天……真的很謝謝你。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·猶豫了一下",
+          "text": "那個……傘……你怎麼辦？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "我家在相反方向，走幾分鐘就到。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾·從書包裡拿出筆記本，撕下一頁",
+          "text": "這個……我的聯絡方式。如果感冒了……記得告訴我。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "驚訝·接過紙條",
+          "text": "……這是。她主動給我聯絡方式了。對這種類型的女生來說，這需要多大的勇氣？",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "我不會感冒的。但……我會傳訊息給妳。確認妳有沒有安全到家。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·點頭",
+          "text": "……嗯。那我走了。再見，清隆同學。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "再見，日和。",
+          "isMonologue": false
+        },
+        {
+          "type": "action",
+          "text": "日和跑進雨中，背影漸漸變小。清隆低頭看著手中的紙條。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "椎名日和。在這張紙條上，她寫了電話和LINE。字跡工整漂亮，像是在圖書館整理書架一樣一絲不苟。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "……「確認妳有沒有安全到家」。我什麼時候變得這麼會說這種話了？",
+          "isMonologue": true
+        },
+        {
+          "type": "act_end"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "文化祭準備 — 文藝社的幫手",
+      "metadata": {
+        "location": "文藝社活動室 → 圖書館",
+        "time": "五月初 放學後",
+        "bgm": "「喧鬧中的寧靜」— 輕快中帶著溫暖的旋律",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "文化祭將近，文藝社計畫舉辦「二手書交換市集」，人手不足。日和雖然是圖書委員，但實際上也常幫文藝社的忙。今天她正為搬運書籍而苦惱。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "……這些書要搬去哪裡？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·抱著一大疊書搖搖晃晃",
+          "text": "清隆同學？你、你怎麼會在這裡？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "路過。妳這樣抱會摔的。",
+          "isMonologue": false
+        },
+        {
+          "type": "action",
+          "text": "清隆伸手接過一半以上的書。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾",
+          "text": "啊……謝謝。這些是要搬到文藝社活動室的，文化祭要用的二手書……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "文藝社？妳是社員？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "不、不是正式的……只是他們人手不夠，我常常幫忙。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "又是這樣。不屬於任何地方，卻總是在幫忙。像是害怕正式加入，卻又無法置之不理。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "我幫妳搬。帶路吧。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝",
+          "text": "可、可以嗎？你不是還要忙轉學的事……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "我早就安頓好了。而且……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "圖書館的午後太安靜了，偶爾活動一下筋骨也不錯。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·淡淡的",
+          "text": "……謝謝你。",
+          "isMonologue": false
+        },
+        {
+          "type": "scene_desc",
+          "text": "文藝社活動室。一片混亂，書籍堆積如山。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "文藝社社長",
+          "expression": null,
+          "text": "啊啊——日和妳終於來了！這位是……？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "他是綾小路清隆同學。二年A班的……他幫我搬書過來。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "文藝社社長",
+          "expression": null,
+          "text": "男生！太好了！我們正好缺人手！綾小路同學，能不能請你幫我們分類這些書？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "就這樣被捲入了嗎。算了，反正沒別的事。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "……好。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·對清隆小聲說",
+          "text": "……對不起，把你捲進來了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "沒關係。反正妳欠我一次。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝",
+          "text": "欠、欠你一次？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "之後請我喝圖書館的自動販賣機咖啡就好。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·輕輕點頭",
+          "text": "……好。一言為定。",
+          "isMonologue": false
+        },
+        {
+          "type": "action",
+          "text": "兩人並肩坐在地上分類書籍。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·拿起一本書",
+          "text": "這本……是清隆同學會喜歡的類型呢。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "《邏輯哲學論》？妳怎麼知道？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "因為……你說過你讀哲學。而且這本書很難，一般人不太會碰。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞",
+          "text": "我、我試著讀過一次，但完全看不懂……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "維根斯坦本來就不是入門級的。妳敢挑戰這本，已經很厲害了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼睛發亮",
+          "text": "真的嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "choice",
+          "id": "5-1",
+          "options": [
+            {
+              "key": "A",
+              "text": "「如果妳有興趣，我可以教妳基礎。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·然後開心地點頭",
+                  "text": "……真的可以嗎？不會打擾你？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "就當是搬書的回禮。而且……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "教別人的過程中，自己也會有新的理解。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·甜甜的",
+                  "text": "那就……拜託你了，老師。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "她叫我「老師」的時候，語氣裡帶著一點點的調皮。這種變化……讓人覺得，她開始在我面前展露真實的一面了。",
+                  "isMonologue": true
+                }
+              ]
+            },
+            {
+              "key": "B",
+              "text": "「妳比較適合文學。哲學太冷了。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "困擾·微微蹙眉",
+                  "text": "太冷了……是嗎。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "但妳的文字很溫暖。我讀過妳寫的讀書心得……貼在圖書館佈告欄上的。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·臉紅",
+                  "text": "你、你怎麼知道那是我寫的？！",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "字跡。和妳給我的聯絡方式紙條一模一樣。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞·低下頭",
+                  "text": "……被發現了。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "C",
+              "text": "「看不懂也沒關係。本來就不是每本書都必須讀懂。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·然後若有所思",
+                  "text": "……不是每本書都必須讀懂。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑",
+                  "text": "這種想法……很自由呢。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "閱讀不應該是義務，是享受。如果讀不懂，放下就好了。也許十年後再拿起來，就懂了。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·點頭",
+                  "text": "……嗯。我會記住的。",
+                  "isMonologue": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "scene_desc",
+          "text": "傍晚，終於整理完畢。兩人走在往車站的路上。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "今天……真的很謝謝你。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "別忘了咖啡就好。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "不會忘的。明天午休……圖書館見？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "嗯。圖書館見。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·走了幾步後回過頭",
+          "text": "那個……清隆同學。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "認真·輕聲說",
+          "text": "今天……很開心。和妳一起整理書的時候。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "她說「開心」。這個總是安靜地躲在角落裡的女孩，說和我在一起「開心」。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·輕輕點頭",
+          "text": "……我也是。",
+          "isMonologue": false
+        },
+        {
+          "type": "act_end"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "溫室的對話 — 封閉空間的秘密",
+      "metadata": {
+        "location": "校園角落·玻璃溫室",
+        "time": "五月中旬 放學後",
+        "bgm": "「溫室裡的花語」— 大提琴為主，優雅而私密",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "清隆在圖書館沒找到日和，經過溫室時偶然發現她坐在裡面。溫室裡種滿了各種花卉，充滿潮濕的土壤氣息與花香。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "圖書館沒看到她……原來在這裡。溫室？她連這種地方都會來嗎。",
+          "isMonologue": true
+        },
+        {
+          "type": "action",
+          "text": "清隆推開玻璃門。溫室內溫暖潮濕，和外面的空氣完全不同。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "找到妳了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·從花叢中抬起頭",
+          "text": "清隆同學？你、你怎麼會在這裡？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "圖書館沒看到妳，就想說可能在什麼奇怪的地方。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·淡淡的",
+          "text": "這裡才不奇怪……這是我的秘密基地。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·環顧四周",
+          "text": "溫室是妳管理的？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·輕輕撫摸一朵白色的花",
+          "text": "嗯。園藝社已經沒有社員了，我拜託老師讓我照顧這些花。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "花朵比人好相處。不會說傷人的話，也不會突然離開。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "「不會突然離開」。她又來了。這句話背後的恐懼，她到底經歷過什麼？",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·在日和身旁蹲下",
+          "text": "這是……什麼花？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·溫柔地",
+          "text": "白玫瑰。還沒開。大概再過一週就會綻放了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳每天都來澆水？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "嗯。早上和放學後。風見市的氣候很適合玫瑰，但也要注意濕度……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "她說起花的時候，和說起書的時候一樣，眼睛會發光。這個女生的世界裡，有書本、有花朵、有安靜的角落……但以前沒有人。",
+          "isMonologue": true
+        },
+        {
+          "type": "choice",
+          "id": "6-1",
+          "options": [
+            {
+              "key": "A",
+              "text": "「我可以常來這裡嗎？」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·然後低下頭",
+                  "text": "……這裡很無聊。沒有書，只有花。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "有妳在就不無聊。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞·臉頰泛紅",
+                  "text": "……那、那種話……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·輕輕點頭",
+                  "text": "……隨時都可以來。只要不打擾到花就好。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "B",
+              "text": "「妳對花這麼用心，一定會開得很漂亮。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·甜甜的",
+                  "text": "嗯……我希望如此。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "淡淡的",
+                  "text": "但花朵有時候很任性。就算再用心照顧，也可能不開花。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "那就繼續照顧到它開花為止。妳不是那種會半途而廢的人吧？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·望向清隆",
+                  "text": "……嗯。我會等到它開花。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "C",
+              "text": "「這裡的溫度……讓人想睡覺。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·輕輕笑了",
+                  "text": "因為溫室裡保持恆溫二十五度。冬天來的時候，這裡是最溫暖的地方。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "那冬天我要搶位置了。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑",
+                  "text": "……我可以分你一半的暖氣。換你每天幫我澆水。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "成交。",
+                  "isMonologue": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "scene_desc",
+          "text": "溫室內，兩人並肩坐在花架旁。夕陽透過玻璃灑進來，將一切都染成金色。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·突然輕聲說",
+          "text": "清隆同學……為什麼會轉來這所學校？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "父親的工作調動。沒什麼特別的理由。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "……那你會在這裡待多久？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "來了。這才是她真正想問的。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "不知道。可能一年，也可能更久。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "淡淡的·帶著一絲哀傷",
+          "text": "……這樣啊。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳在擔心什麼？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾·低下頭",
+          "text": "沒有……只是，如果你有一天突然不在了，我會……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·勉強的",
+          "text": "沒事。我已經習慣了。人本來就會來來去去。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "她說「習慣了」，但聲音在顫抖。這個女生……在還沒開始之前，就已經在害怕結束了。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·認真地",
+          "text": "日和。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·抬起頭",
+          "text": "……？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "認真",
+          "text": "我不會說『我永遠不會離開』這種話。因為我也不知道未來會怎樣。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "認真",
+          "text": "但至少現在……我在這裡。和妳一起，在這個溫室裡。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·眼眶微微濕潤",
+          "text": "……清隆同學。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·帶著淚光",
+          "text": "……你真的很狡猾。總是說這種讓人沒辦法反駁的話。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "這是事實，不是台詞。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·輕輕點頭",
+          "text": "……嗯。我知道。",
+          "isMonologue": false
+        },
+        {
+          "type": "act_end"
+        },
+        {
+          "type": "cg_unlock",
+          "cgId": "CG-04",
+          "title": "溫室之中",
+          "description": "夕陽透過玻璃，照亮日和手中的白玫瑰花苞"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "誤會與疏遠 — 日和的退縮",
+      "metadata": {
+        "location": "教室 → 圖書館二樓",
+        "time": "六月上旬",
+        "bgm": "「烏雲」— 鋼琴獨奏，低音部，不安的氛圍",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "某天午休，清隆在走廊上被隔壁班的女同學搭話。女同學對轉學生感興趣，邀請他週末一起出去玩。這一幕被剛好經過的日和看到。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "女同學C",
+          "expression": null,
+          "text": "綾小路同學，你這週末有空嗎？我們幾個人要去海邊玩，要不要一起來？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "海邊？我——",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "視線餘光捕捉到一個身影。日和。她站在走廊的轉角，看著這邊。然後……她低下頭，快步走開了。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "……抱歉，我週末有事。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "女同學C",
+          "expression": null,
+          "text": "哎——真可惜。那下次囉！",
+          "isMonologue": false
+        },
+        {
+          "type": "scene_desc",
+          "text": "圖書館二樓。日和坐在平時的座位上，但位置稍微偏移了一些，背對著入口。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "日和。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·但沒有回頭",
+          "text": "……清隆同學。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳剛才在走廊上。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·聲音平淡",
+          "text": "……嗯。抱歉，打擾到你們了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "「打擾」？她在說什麼。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "沒有打擾。我只是被搭話而已。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "淡淡的",
+          "text": "……她很漂亮。而且……很主動。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·勉強的",
+          "text": "清隆同學應該答應的。海邊聽起來很有趣。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳想让我去？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾·低下頭",
+          "text": "……不是我想不想的問題。你有你的自由。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "她在退縮。不只是距離上的，而是心理上的。像是蝸牛碰到觸角一樣，迅速地縮回殼裡。",
+          "isMonologue": true
+        },
+        {
+          "type": "choice",
+          "id": "7-1",
+          "options": [
+            {
+              "key": "A",
+              "text": "「我不會去的。因為妳會在意。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·終於回過頭",
+                  "text": "我、我沒有在意！我只是……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "只是什麼？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "困擾·聲音變小",
+                  "text": "……只是覺得，你有更好的選擇。不像我……只會躲在圖書館裡。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "『更好』是誰定義的？我覺得圖書館比海邊好。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝",
+                  "text": "……為什麼？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "因為這裡有妳。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "B",
+              "text": "「妳在生氣嗎？」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·搖頭",
+                  "text": "我沒有生氣……我沒有資格生氣。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "資格？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "淡淡的",
+                  "text": "我們只是……同學。只是剛好每天一起吃午餐的關係。不是嗎？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "独白",
+                  "text": "「只是同學」。她在試探我，同時也在保護自己。如果我把話說死，她就可以安心地縮回殼裡。",
+                  "isMonologue": true
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "不是。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝",
+                  "text": "……咦？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "妳對我來說，不只是同學。這點……妳應該也感覺到了吧？",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "C",
+              "text": "走到她面前，直視她的眼睛",
+              "nodes": [
+                {
+                  "type": "action",
+                  "text": "清隆繞過書架，走到日和面前。她低下頭，不願意對上視線。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "抬起頭，日和。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "困擾",
+                  "text": "不要……現在的我，表情一定很難看。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "我不在乎。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·慢慢抬起頭，眼眶微紅",
+                  "text": "……你為什麼……總是這樣？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "怎樣？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "淡淡的，帶著淚意",
+                  "text": "總是……輕易地看穿我。總是……在我想要退縮的時候，把我拉回來。",
+                  "isMonologue": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "convergence",
+          "text": "以下劇情三選共通"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·帶著淚光",
+          "text": "……清隆同學，你知道嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "認真",
+          "text": "我國中的時候……被排擠過。因為太安靜、太奇怪、只會看書……所以被大家疏遠。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "……。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "淡淡的",
+          "text": "那之後，我就不再相信任何人了。因為相信之後被拋棄……比一開始就不相信更痛苦。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·脆弱的",
+          "text": "但是……你出現了。每天來圖書館，每天坐在我附近，每天跟我說話……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "認真",
+          "text": "我怕這些都是假的。怕你只是在可憐我，怕你也會像其他人一樣……有一天突然離開。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·輕輕嘆氣",
+          "text": "……妳這個笨蛋。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝",
+          "text": "……笨蛋？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·伸出手，輕輕放在日和頭上",
+          "text": "我需要可憐誰？我自己才是那個轉學無數次、從來不交朋友的怪人。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "我來圖書館，不是因為可憐妳。是因為……和妳在一起的時候，我不用假裝。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·眼淚滑落",
+          "text": "……清隆……同學……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·輕輕擦去她的淚",
+          "text": "所以妳可以繼續害怕。可以繼續退縮。但我會一直在這裡……等到妳不再害怕為止。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·流著淚",
+          "text": "……嗯。我會努力的。努力……不再害怕。",
+          "isMonologue": false
+        },
+        {
+          "type": "act_end"
+        },
+        {
+          "type": "cg_unlock",
+          "cgId": "CG-05",
+          "title": "眼淚的溫度",
+          "description": "清隆為日和拭淚，背景是圖書館的夕陽"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "清隆的觀察 — 看不見的裂痕",
+      "metadata": {
+        "location": "教室 → 天台",
+        "time": "六月中旬",
+        "bgm": "「獨白」— 吉他獨奏，略帶惆悵",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "誤會解除後的幾天，日和變得比較開朗了，但清隆注意到她偶爾還是會露出不安的表情。某天放學，清隆獨自在天台思考。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "日和的心結……並沒有完全解開。她只是努力在我面前表現得正常。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "「國中被排擠」的經歷，讓她對人際關係有著根深蒂固的不信任。她害怕被拋棄，所以先一步封閉自己。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "而我呢？我又是為什麼……這麼在意她？",
+          "isMonologue": true
+        },
+        {
+          "type": "action",
+          "text": "天台門被推開。日和走了進來。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝",
+          "text": "清隆同學？你果然在這裡。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳怎麼知道我在這裡？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·淡淡的",
+          "text": "因為……你已經連續三天放學後不在圖書館了。我想說，你可能在什麼安靜的地方思考事情。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "天台是我第二個秘密基地。本來想獨自來的……但你在這裡，也不壞。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "過來坐吧。",
+          "isMonologue": false
+        },
+        {
+          "type": "action",
+          "text": "兩人並肩坐在天台的護欄旁。遠處是風見市的港口，船隻緩緩駛過。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "清隆同學……你最近在想什麼？感覺你有些煩惱。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "這麼明顯？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "嗯。因為我每天都在觀察你。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·低下頭",
+          "text": "啊……這種說法好像變態……不是那個意思！只是……習慣了注意到你的存在……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·輕輕笑了",
+          "text": "我知道妳的意思。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·望向遠方",
+          "text": "我在想……轉學這件事。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·身體微微僵硬",
+          "text": "……轉學？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "父親前幾天打電話來，說工作可能有變動。也許……暑假前會再搬家。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·臉色蒼白",
+          "text": "……怎麼會……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "我看到了。她臉上閃過的恐懼。和那天的「誤會」不同，這次是真實的、深層的絕望。",
+          "isMonologue": true
+        },
+        {
+          "type": "choice",
+          "id": "8-1",
+          "options": [
+            {
+              "key": "A",
+              "text": "「但還沒確定。我還在爭取留下來。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·眼中閃過一絲希望",
+                  "text": "爭取……？你可以決定自己要留在哪裡嗎？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "我已經不是小孩了。這次……我想為自己做一次決定。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常·看向日和",
+                  "text": "因為這裡……有我不想離開的理由。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞·臉頰泛紅",
+                  "text": "……那個理由……是我嗎？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "妳說呢？",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "B",
+              "text": "「就算離開，我也會保持聯絡。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "困擾·微微低下頭",
+                  "text": "聯絡……以前的人也這麼說過。但漸漸地，訊息越來越少，最後就……沒有了。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "我和妳以前遇到的人不一樣。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "淡淡的",
+                  "text": "每個人都這麼說……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "那我用行動證明。每天至少一封訊息，持續到妳說停為止。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·帶著淚意",
+                  "text": "……這是約定喔。毀約的人……要吞一千根針。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "C",
+              "text": "（沉默，伸出手握住她的手）",
+              "nodes": [
+                {
+                  "type": "action",
+                  "text": "清隆沒有說話，只是伸出手，輕輕握住了日和的手。她的手很涼，微微顫抖。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·看著被握住的手",
+                  "text": "……清隆同學？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "什麼都不用說。就這樣待一會。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·帶著淚光，輕輕回握",
+                  "text": "……嗯。就這樣……待一會。",
+                  "isMonologue": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "convergence",
+          "text": "以下劇情三選共通"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "日和。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "……嗯。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "認真",
+          "text": "我可能不是個可靠的人。我習慣隱藏自己，習慣不表達情感，習慣在別人靠近之前就先離開。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "認真",
+          "text": "但妳……讓我想要改變。想要試著……留在某個人身边。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼淚靜靜滑落",
+          "text": "……清隆同學。你知道嗎？你現在說的這些話……比任何承諾都讓我安心。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "認真",
+          "text": "因為……你不是在說『我永遠不會離開』這種漂亮話。你是在說『我會努力』。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "努力……是可以相信的。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·輕輕點頭",
+          "text": "嗯。我會努力的。為了……留在這裡。留在妳身邊。",
+          "isMonologue": false
+        },
+        {
+          "type": "action",
+          "text": "夕陽緩緩沉入港口。兩人的手仍牽在一起。"
+        },
+        {
+          "type": "act_end"
+        },
+        {
+          "type": "cg_unlock",
+          "cgId": "CG-06",
+          "title": "天台的約定",
+          "description": "兩人並肩望向港口夕陽，手牽在一起"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "解開心結 — 圖書館的尋找",
+      "metadata": {
+        "location": "圖書館 → 二年A班教室",
+        "time": "六月下旬",
+        "bgm": "「陽光穿透雲層」— 從陰鬱逐漸轉為明亮的弦樂",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "轉學的傳聞在班級裡傳開了。某天放學，清隆回到教室時，發現日和不在座位，也不在圖書館。最後在天台找到了她。"
+        },
+        {
+          "type": "action",
+          "text": "天台。日和抱著膝蓋坐在角落。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "……我就知道妳在這裡。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·抬起頭，眼眶紅紅的",
+          "text": "清隆同學……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·在她身旁坐下",
+          "text": "聽到了傳言？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾·低下頭",
+          "text": "……嗯。班上有同學說……你可能又要轉學了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "淡淡的",
+          "text": "我告訴自己不要在意。你已經說過會努力了。但是……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·脆弱的",
+          "text": "我還是……逃跑了。對不起。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "不用道歉。這是妳的應對方式。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "但是……我有話要告訴妳。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝",
+          "text": "……？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "我跟父親談過了。這次……我會留在白鷺學園。至少……讀完高中。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·睜大眼睛",
+          "text": "……真的嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "嗯。這是我第一次……為自己想留在某個地方。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼淚奪眶而出",
+          "text": "……謝謝你。謝謝你……願意留下來。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "不是『願意』。是『想要』。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·流著淚，輕輕靠過來",
+          "text": "……吶，清隆同學。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "嗯？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "認真·輕聲說",
+          "text": "我……也會努力的。努力不再逃跑。努力……相信你。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "不用勉強。一步一步來就好。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "嗯。和你一起……一步一步來。",
+          "isMonologue": false
+        },
+        {
+          "type": "act_end"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "期中復習 — 兩人的學習會",
+      "metadata": {
+        "location": "圖書館二樓",
+        "time": "七月上旬 期中考前",
+        "bgm": "「小小的幸福」— 輕快的鋼琴，帶著一絲甜蜜",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "期中考前一周。日和的數學比較弱，清隆主動提出幫她複習。兩人在圖書館二樓展開學習會。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾·看著考卷",
+          "text": "嗚……這題我又錯了……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "三角函數的應用題。妳的公式都記住了，但換個出法就會卡住。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾",
+          "text": "因為……我不知道該用哪個公式……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·拿起筆",
+          "text": "看好了。這題的關鍵是……",
+          "isMonologue": false
+        },
+        {
+          "type": "action",
+          "text": "清隆在筆記本上畫圖解釋。日和認真地看著，兩人的頭不知不覺靠得很近。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·發現距離很近，臉紅",
+          "text": "啊……對、對不起，靠太近了……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "沒關係。這樣看得比較清楚。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞",
+          "text": "清、清隆同學……有時候真的很遲鈍……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "遲鈍？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·低下頭",
+          "text": "沒、沒什麼！繼續教我吧！",
+          "isMonologue": false
+        },
+        {
+          "type": "action",
+          "text": "兩小時後。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·開心的",
+          "text": "我懂了！原來是這樣！",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳理解得很快。只是缺了一個切入點。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "因為老師教得好。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "那學生要不要給老師一點獎勵？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝",
+          "text": "獎、獎勵？",
+          "isMonologue": false
+        },
+        {
+          "type": "choice",
+          "id": "10-1",
+          "options": [
+            {
+              "key": "A",
+              "text": "「明天的午餐，妳便當分我一半。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑",
+                  "text": "好。那我明天多做一點……不對，清隆同學想吃什麼？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "妳做的都可以。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞",
+                  "text": "這、這種說法……讓人很困擾耶……",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "B",
+              "text": "「幫我整理溫室的花朵，一個月。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑",
+                  "text": "溫室本來就每天都會去。這不算獎勵。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "那就加上……澆水的時候，要叫我一起。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·點頭",
+                  "text": "……好。約好了。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "C",
+              "text": "「……開玩笑的。看到妳開心的表情就夠了。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·然後臉頰通紅",
+                  "text": "……清隆同學。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞·輕聲說",
+                  "text": "你偶爾……會說這種讓人心跳加速的話呢。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "我只是說事實。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑",
+                  "text": "……這就是讓人心跳加速的地方。",
+                  "isMonologue": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "act_end"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "文化祭當日 — 短暫的獨處時光",
+      "metadata": {
+        "location": "文化祭會場 → 屋頂",
+        "time": "十月中旬 文化祭當天",
+        "bgm": "「祭典的喧囂與兩人的寂靜」— 熱鬧與寧靜交織的旋律",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "白鷺祭當天。學園裡充滿了喧囂與人群。文藝社的二手書市集大受歡迎。忙了一上午後，清隆和日和偷偷溜到了屋頂。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·喘著氣",
+          "text": "哈啊……終於……安靜下來了……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳的市集很成功。社長說創下了歷年最高營業額。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·開心的",
+          "text": "因為清隆同學幫忙做了很多宣傳海報……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "只是畫了幾筆而已。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·認真地",
+          "text": "才不是『幾筆』。你畫的圖書館插畫……很多人稱讚。說『想去二樓看看』。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "那下次文化祭，可以辦『圖書館導覽』的活動。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "……你會當我的導覽助手嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "如果妳希望的話。",
+          "isMonologue": false
+        },
+        {
+          "type": "action",
+          "text": "兩人並肩坐在屋頂的護欄旁。下方傳來文化祭的喧囂聲。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·望向遠方",
+          "text": "清隆同學……文化祭……開心嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "嗯。比想像中有趣。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·輕聲說",
+          "text": "我也是。以前的文化祭……我都一個人躲在圖書館裡。覺得下面太吵、太可怕。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·看向清隆",
+          "text": "但今年……有你在一起。所以覺得……外面的喧囂，也沒那麼可怕了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "日和。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "嗯？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "明年、後年的文化祭……也一起參加吧。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·然後綻放笑容",
+          "text": "……嗯。說好了喔。",
+          "isMonologue": false
+        },
+        {
+          "type": "cg_unlock",
+          "cgId": "CG-07",
+          "title": "文化祭的屋頂",
+          "description": "兩人並肩坐在屋頂，下方是熱鬧的祭典"
+        },
+        {
+          "type": "act_end"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "冬季將至 — 日和的不安",
+      "metadata": {
+        "location": "圖書館二樓 → 溫室",
+        "time": "十一月下旬",
+        "bgm": "「即將到來的冬天」— 鋼琴獨奏，略帶寒意",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "天氣逐漸轉涼。日和變得比較安靜，偶爾會露出憂慮的表情。清隆注意到她的變化，在溫室找到了她。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳最近怎麼了？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝",
+          "text": "……什麼怎麼了？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳在勉強自己笑。發生了什麼事？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾·低下頭",
+          "text": "……我表現得這麼明顯嗎。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常·輕聲說",
+          "text": "下個月……就是聖誕節了。然後是寒假。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "所以呢？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾",
+          "text": "寒假……有兩週見不到面。然後……明年三月，你就升上三年級了。再然後……就是畢業。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "淡淡的",
+          "text": "時間……過得好快。我開始害怕……這些日常的結束。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "日和。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·認真地",
+          "text": "時間確實會過去。寒假會來，畢業也會來。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "但結束不代表失去。我們一起度過的時間，不會因為結束就變成零。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·抬起頭",
+          "text": "……。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "而且……妳以為畢業了就不會再見面嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾",
+          "text": "不是……但總是會改變……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "會改變。但我們也會一起改變。不是嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·淡淡的",
+          "text": "……嗯。一起改變。",
+          "isMonologue": false
+        },
+        {
+          "type": "act_end"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "聖誕前夕 — 特別禮物的意義",
+      "metadata": {
+        "location": "車站前商店街 → 港口步道",
+        "time": "十二月二十四日 平安夜",
+        "bgm": "「白色戀曲」— 鋼琴與弦樂，浪漫的聖誕旋律",
+        "se": "街燈與聖誕裝飾SE"
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "平安夜。清隆和日和約在車站前見面。這是他們第一次正式的「約會」。商店街充滿了聖誕氣氛。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·穿著圍巾",
+          "text": "那、那個……等很久了嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "剛到。妳的圍巾……很適合妳。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·低下頭",
+          "text": "謝、謝謝……這是我自己織的……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "驚訝",
+          "text": "自己織的？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞",
+          "text": "嗯……從秋天開始偷偷織的……本來想聖誕節送給你……但還沒完成。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "那我就是預約了明年的聖誕禮物。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "……嗯。我一定會完成的。",
+          "isMonologue": false
+        },
+        {
+          "type": "action",
+          "text": "兩人在商店街散步，看著櫥窗裡的聖誕裝飾。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "清隆同學……你有聖誕節的回憶嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "沒有什麼特別的。因為經常搬家，聖誕節通常只有我和父親，而且他也經常不在。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "困擾",
+          "text": "……孤單的聖誕節。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "習慣了。但今年……不同。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·看向日和",
+          "text": "因為有妳在。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "害羞·臉頰通紅",
+          "text": "……清隆同學……今天特別會說這種話呢。",
+          "isMonologue": false
+        },
+        {
+          "type": "choice",
+          "id": "13-1",
+          "options": [
+            {
+              "key": "A",
+              "text": "拿出禮物「這是……送妳的。」",
+              "nodes": [
+                {
+                  "type": "action",
+                  "text": "清隆從口袋裡拿出一個小盒子。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "這個……送妳的。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·接過盒子",
+                  "text": "……可以打開嗎？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "嗯。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "action",
+                  "text": "盒子裡是一本手製書籤，上面刻著「Sehnsucht」。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·眼眶濕潤",
+                  "text": "這是……我們第一次認真聊天的那個詞……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "我在學校的工作坊做的。技術不太好……",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·流著淚",
+                  "text": "不會……這是我收過……最棒的聖誕禮物。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "B",
+              "text": "「因為今天是特別的日子。」",
+              "nodes": [
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑",
+                  "text": "特別的日子……？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "第一次和妳一起過的聖誕節。當然特別。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "害羞",
+                  "text": "以後……還會有很多個的。對吧？",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "嗯。只要妳希望。",
+                  "isMonologue": false
+                }
+              ]
+            },
+            {
+              "key": "C",
+              "text": "牽起她的手「走吧，去港口看夜景。」",
+              "nodes": [
+                {
+                  "type": "action",
+                  "text": "清隆牽起日和的手。她的手很涼，但沒有抗拒。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "驚訝·輕輕回握",
+                  "text": "……清隆同學的手……很溫暖。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "清隆",
+                  "expression": "通常",
+                  "text": "那就握緊一點。不要放開。",
+                  "isMonologue": false
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "日和",
+                  "expression": "微笑·輕輕點頭",
+                  "text": "……嗯。不放開。",
+                  "isMonologue": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "scene_desc",
+          "text": "港口步道。夜空中飄著細雪。遠處的燈塔一閃一閃。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·伸手接住雪花",
+          "text": "雪……！風見市很少下雪的……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "是初雪呢。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·望向清隆",
+          "text": "初雪……有傳說的。一起看初雪的兩個人……會永遠在一起。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "妳相信這種傳說？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "以前不相信。但現在……想相信。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·輕輕將她拉進懷裡",
+          "text": "……那我也相信。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·然後安心地閉上眼睛",
+          "text": "……嗯。一起相信。",
+          "isMonologue": false
+        },
+        {
+          "type": "cg_unlock",
+          "cgId": "CG-08",
+          "title": "平安夜",
+          "description": "港口的初雪，兩人相擁，遠處燈塔閃爍"
+        },
+        {
+          "type": "act_end"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "告白 — 終於說出口的心意",
+      "metadata": {
+        "location": "圖書館二樓·面海閱讀區",
+        "time": "隔年一月 放學後",
+        "bgm": "「終於說出口的話」— 弦樂高潮，情感滿溢的旋律",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "新年假期結束後，兩人回到日常的圖書館午後。但這次，清隆有話要說。他站在窗前，背對著日和。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "独白",
+          "text": "已經……不能再這樣下去了。這種「曖昧的距離」。我不想再假裝這只是「朋友」的關係了。",
+          "isMonologue": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "通常",
+          "text": "清隆同學？你怎麼站在那裡不動？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·轉過身",
+          "text": "日和。我有話要對妳說。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·感覺到氣氛不同",
+          "text": "……什麼話？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "認真",
+          "text": "從轉學第一天……在這個圖書館遇見妳開始，一切都變了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "認真",
+          "text": "本來我打算像以前一樣，不跟任何人深交，安靜地度過這段時間，然後離開。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "認真",
+          "text": "但妳……讓我改變了主意。每天來圖書館變成期待，和妳說話變成習慣，看到妳的笑容……變成我一天中最幸福的時刻。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·眼眶泛紅",
+          "text": "清隆……同學……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "認真·直視她的眼睛",
+          "text": "我喜歡妳，日和。不是因為妳安靜、不是因為妳愛看書、不是因為妳溫柔……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "認真",
+          "text": "是因為……和妳在一起的時候，我終於可以是我自己。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "驚訝·眼淚滑落",
+          "text": "……笨蛋。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "驚訝",
+          "text": "……笨蛋？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·流著淚",
+          "text": "這種話……應該讓我先說才對啊。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "認真·站起來，面對清隆",
+          "text": "我也喜歡你。從什麼時候開始的……不知道。也許是雨天共撐一把傘的時候，也許是溫室裡你說『我在這裡』的時候……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "認真",
+          "text": "也許……是第一次見面的時候，你就已經走進我的心裡了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·微笑",
+          "text": "……那我們豈不是浪費了很多時間？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "沒有浪費……因為那些時間，讓我確定了自己的心意。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·伸出手",
+          "text": "那……從現在開始，不再是『同學』了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·將手放在他的掌心",
+          "text": "嗯。是『戀人』。",
+          "isMonologue": false
+        },
+        {
+          "type": "cg_unlock",
+          "cgId": "CG-09",
+          "title": "告白",
+          "description": "圖書館二樓的夕陽下，兩人手牽手對視"
+        },
+        {
+          "type": "act_end"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "新的開始 — 攜手走向未來",
+      "metadata": {
+        "location": "白鷺學園 各處 → 溫室",
+        "time": "隔年三月 畢業季前夕",
+        "bgm": "「永遠的約定」— 溫暖的全套弦樂，希望的旋律",
+        "se": ""
+      },
+      "nodes": [
+        {
+          "type": "scene_desc",
+          "text": "時間快轉到三年級下學期。清隆和日和已經交往了一年多。某天放學，兩人來到溫室。白玫瑰盛開了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·幸福的",
+          "text": "清隆……看。白玫瑰……開了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "嗯。妳照顧了快一年……終於綻放了。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "就像……我們一樣。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常",
+          "text": "我們？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·輕輕靠在清隆肩上",
+          "text": "嗯。剛開始的時候……我是閉著的花苞。害怕綻放，害怕被看到。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "但你……一直等在旁邊。澆水、等待、從不催促……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "認真",
+          "text": "謝謝你。謝謝你……讓我綻放。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "通常·輕輕摟住她",
+          "text": "是妳自己綻放的。我只是……剛好在這裡而已。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑",
+          "text": "那……以後也會在嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "認真",
+          "text": "嗯。以後也會在。大學、工作、未來的每一天……",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "清隆",
+          "expression": "認真",
+          "text": "我會一直在妳身邊。這是……比『永遠』更真實的約定。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼中有淚，但那是幸福的淚",
+          "text": "嗯。一起……走向未來。",
+          "isMonologue": false
+        },
+        {
+          "type": "action",
+          "text": "夕陽透過溫室的玻璃灑下來，照亮盛開的白玫瑰。兩人相擁，身後是無限延伸的光。"
+        },
+        {
+          "type": "cg_unlock",
+          "cgId": "CG-10",
+          "title": "永遠的約定",
+          "description": "溫室中盛開的白玫瑰，兩人相擁，夕陽灑滿全身"
+        },
+        {
+          "type": "action",
+          "text": "*【ED播放】*"
+        },
+        {
+          "type": "action",
+          "text": "*【椎名日和線 — 完】*"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼中有淚，但那是幸福的淚",
+          "text": "尾聲：三年後，兩人考入同一所大學的文學院。日和成為圖書館員，清隆成為翻譯家。他們在風見市租了一間可以看見海的小公寓，客廳裡擺滿了書本和白玫瑰。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼中有淚，但那是幸福的淚",
+          "text": "",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼中有淚，但那是幸福的淚",
+          "text": "吶，清隆。你還記得那個Sehnsucht嗎？",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼中有淚，但那是幸福的淚",
+          "text": "",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼中有淚，但那是幸福的淚",
+          "text": "記得啊。對遙遠之物的深切思念。",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼中有淚，但那是幸福的淚",
+          "text": "",
+          "isMonologue": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "日和",
+          "expression": "微笑·眼中有淚，但那是幸福的淚",
+          "text": "我現在……沒有Sehnsucht了。因為我渴望的一切……都在這裡。",
+          "isMonologue": false
+        }
+      ]
+    }
+  ]
+}

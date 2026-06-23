@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>《白鷺學園的戀愛習題》— 椎名日和線</title>
+  <!-- Google Fonts for premium typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Outfit:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Dynamic Game Container -->
+  <div id="game-container" class="menu-active">
+
+    <!-- Rain Overlay Effect (Activated dynamically) -->
+    <div id="rain-overlay" class="hidden"></div>
+
+    <!-- Flash Overlay (For transitions) -->
+    <div id="flash-overlay"></div>
+
+    <!-- BACKGROUND LAYER -->
+    <div id="bg-layer" class="bg-stretch"></div>
+    <div id="bg-layer-temp" class="bg-stretch hidden"></div>
+
+    <!-- CHARACTER LAYER -->
+    <div id="character-layer">
+      <div id="char-left" class="char-sprite-container">
+        <img class="char-sprite" src="" alt="Left Character">
+      </div>
+      <div id="char-center" class="char-sprite-container">
+        <img class="char-sprite" src="" alt="Center Character">
+      </div>
+      <div id="char-right" class="char-sprite-container">
+        <img class="char-sprite" src="" alt="Right Character">
+      </div>
+    </div>
+
+    <!-- SPECIAL CG PRESENTATION -->
+    <div id="special-cg-overlay" class="hidden">
+      <img id="special-cg-img" src="" alt="Special CG">
+      <div id="special-cg-dialogue">
+        <div id="special-cg-title"></div>
+        <p id="special-cg-text"></p>
+        <div id="special-cg-prompt" class="blink-indicator hidden">▼</div>
+      </div>
+    </div>
+
+    <!-- MAIN MENU SCREEN -->
+    <div id="main-menu" class="screen-overlay">
+      <div class="menu-logo-area animate-fade-in">
+        <h1 id="game-title">白鷺學園的戀愛習題</h1>
+        <h2 id="game-subtitle">椎名日和線</h2>
+      </div>
+      <div class="menu-options animate-slide-up">
+        <button id="btn-start" class="menu-btn primary-btn">新遊戲</button>
+        <button id="btn-load-menu" class="menu-btn">繼續遊戲</button>
+        <button id="btn-gallery-menu" class="menu-btn">CG 畫廊</button>
+        <button id="btn-settings-menu" class="menu-btn">遊戲設定</button>
+      </div>
+      <div class="menu-footer">
+        <p>© 2026 白鷺學園文藝社. All Rights Reserved.</p>
+      </div>
+    </div>
+
+    <!-- GAME PLAY SCREEN UI -->
+    <div id="game-play-ui" class="hidden">
+      <!-- Top Info bar (Act Title) -->
+      <div id="top-info-bar" class="glass-panel">
+        <span id="act-title-display">第1幕：圖書館的靜謐少女</span>
+      </div>
+
+      <!-- Choice Overlay Panel -->
+      <div id="choice-container" class="hidden">
+        <div id="choice-list" class="animate-scale-in">
+          <!-- Dynamically inserted choice buttons -->
+        </div>
+      </div>
+
+      <!-- Dialogue/Text Box (Bottom HUD) -->
+      <div id="dialogue-box-container" class="glass-panel animate-slide-up">
+        <!-- Speaker name tag -->
+        <div id="name-tag-container" class="hidden">
+          <span id="speaker-name">清隆</span>
+        </div>
+
+        <!-- Text content -->
+        <div id="text-content-container">
+          <p id="dialogue-text">點擊「新遊戲」開始您的青春故事......</p>
+          <div id="click-prompt" class="blink-indicator hidden">▼</div>
+        </div>
+
+        <!-- Quick Action Menu -->
+        <div id="quick-menu">
+          <button id="btn-quick-log" class="q-btn">Log 歷程</button>
+          <button id="btn-quick-auto" class="q-btn">Auto 自動</button>
+          <button id="btn-quick-skip" class="q-btn">Skip 跳過</button>
+          <button id="btn-quick-save" class="q-btn">Save 存檔</button>
+          <button id="btn-quick-load" class="q-btn">Load 讀檔</button>
+          <button id="btn-quick-menu" class="q-btn">Menu 選單</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL / PANELS OVERLAYS -->
+
+    <!-- Backlog (Dialogue History) Modal -->
+    <div id="log-panel" class="modal-overlay hidden">
+      <div class="modal-content glass-panel animate-scale-in">
+        <div class="modal-header">
+          <h3>歷史對話記錄</h3>
+          <button id="btn-close-log" class="close-btn">&times;</button>
+        </div>
+        <div id="log-list" class="modal-body">
+          <!-- Dialogue lines will be appended here dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Save/Load Modal -->
+    <div id="saveload-panel" class="modal-overlay hidden">
+      <div class="modal-content glass-panel animate-scale-in">
+        <div class="modal-header">
+          <h3 id="saveload-title">檔案管理</h3>
+          <button id="btn-close-saveload" class="close-btn">&times;</button>
+        </div>
+        <div class="modal-body slot-grid">
+          <!-- Save Slots 1 to 6 -->
+          <div class="save-slot" data-slot="1">
+            <div class="slot-number">01</div>
+            <div class="slot-info">
+              <span class="slot-act">未有存檔</span>
+              <span class="slot-preview">沒有資料。</span>
+              <span class="slot-date">--/--/-- --:--</span>
+            </div>
+            <div class="slot-actions">
+              <button class="slot-btn btn-save-action">儲存</button>
+              <button class="slot-btn btn-load-action" disabled>讀取</button>
+            </div>
+          </div>
+          <div class="save-slot" data-slot="2">
+            <div class="slot-number">02</div>
+            <div class="slot-info">
+              <span class="slot-act">未有存檔</span>
+              <span class="slot-preview">沒有資料。</span>
+              <span class="slot-date">--/--/-- --:--</span>
+            </div>
+            <div class="slot-actions">
+              <button class="slot-btn btn-save-action">儲存</button>
+              <button class="slot-btn btn-load-action" disabled>讀取</button>
+            </div>
+          </div>
+          <div class="save-slot" data-slot="3">
+            <div class="slot-number">03</div>
+            <div class="slot-info">
+              <span class="slot-act">未有存檔</span>
+              <span class="slot-preview">沒有資料。</span>
+              <span class="slot-date">--/--/-- --:--</span>
+            </div>
+            <div class="slot-actions">
+              <button class="slot-btn btn-save-action">儲存</button>
+              <button class="slot-btn btn-load-action" disabled>讀取</button>
+            </div>
+          </div>
+          <div class="save-slot" data-slot="4">
+            <div class="slot-number">04</div>
+            <div class="slot-info">
+              <span class="slot-act">未有存檔</span>
+              <span class="slot-preview">沒有資料。</span>
+              <span class="slot-date">--/--/-- --:--</span>
+            </div>
+            <div class="slot-actions">
+              <button class="slot-btn btn-save-action">儲存</button>
+              <button class="slot-btn btn-load-action" disabled>讀取</button>
+            </div>
+          </div>
+          <div class="save-slot" data-slot="5">
+            <div class="slot-number">05</div>
+            <div class="slot-info">
+              <span class="slot-act">未有存檔</span>
+              <span class="slot-preview">沒有資料。</span>
+              <span class="slot-date">--/--/-- --:--</span>
+            </div>
+            <div class="slot-actions">
+              <button class="slot-btn btn-save-action">儲存</button>
+              <button class="slot-btn btn-load-action" disabled>讀取</button>
+            </div>
+          </div>
+          <div class="save-slot" data-slot="6">
+            <div class="slot-number">06</div>
+            <div class="slot-info">
+              <span class="slot-act">未有存檔</span>
+              <span class="slot-preview">沒有資料。</span>
+              <span class="slot-date">--/--/-- --:--</span>
+            </div>
+            <div class="slot-actions">
+              <button class="slot-btn btn-save-action">儲存</button>
+              <button class="slot-btn btn-load-action" disabled>讀取</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CG Gallery Modal -->
+    <div id="gallery-panel" class="modal-overlay hidden">
+      <div class="modal-content glass-panel animate-scale-in">
+        <div class="modal-header">
+          <h3>CG 畫廊</h3>
+          <button id="btn-close-gallery" class="close-btn">&times;</button>
+        </div>
+        <div class="modal-body gallery-grid" id="gallery-grid">
+          <!-- 10 CG slots (CG-01 to CG-10) will be rendered dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox for viewing full-size CG -->
+    <div id="cg-lightbox" class="hidden">
+      <img id="lightbox-img" src="" alt="Full size CG">
+      <div id="lightbox-info">
+        <h4 id="lightbox-title">圖書館的午後</h4>
+        <p id="lightbox-desc">日和靠窗閱讀的側臉，陽光灑在髮絲上</p>
+      </div>
+      <button id="btn-close-lightbox">&times;</button>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settings-panel" class="modal-overlay hidden">
+      <div class="modal-content glass-panel animate-scale-in">
+        <div class="modal-header">
+          <h3>遊戲設定</h3>
+          <button id="btn-close-settings" class="close-btn">&times;</button>
+        </div>
+        <div class="modal-body settings-body">
+          <div class="setting-item">
+            <label for="text-speed-slider">文字播放速度</label>
+            <div class="range-control">
+              <input type="range" id="text-speed-slider" min="10" max="100" value="40" step="5">
+              <span id="text-speed-value">較快</span>
+            </div>
+          </div>
+          <div class="setting-item">
+            <label for="auto-delay-slider">自動等待延遲 (秒)</label>
+            <div class="range-control">
+              <input type="range" id="auto-delay-slider" min="1.0" max="5.0" value="2.5" step="0.5">
+              <span id="auto-delay-value">2.5s</span>
+            </div>
+          </div>
+          <div class="setting-item">
+            <label>清空存檔數據</label>
+            <button id="btn-reset-data" class="danger-btn">初始化所有數據</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="game.js"></script>
+</body>
+
+</html>
