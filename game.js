@@ -370,6 +370,9 @@ class GalgameEngine {
   getBgPath(location) {
     if (!location) return 'bg_library.png';
     const loc = location.toLowerCase();
+    if (loc.includes('special_cg') || loc.includes('特殊cg') || loc.includes('cgs/special_cg')) {
+      return 'assets/images/cgs/special_cg.png';
+    }
     if (loc.includes('圖書館') || loc.includes('文藝社')) {
       return 'bg_library.png';
     }
@@ -511,6 +514,12 @@ class GalgameEngine {
     this.dom.charLeft.classList.remove('active');
     this.dom.charCenter.classList.remove('active');
     this.dom.charRight.classList.remove('active');
+
+    // Do not display characters in Act 16 (special_cg scene)
+    const act = this.script?.acts[this.state.currentActIndex];
+    if (act && (act.id === 16 || (act.metadata?.location && act.metadata.location.toLowerCase().includes('special_cg')))) {
+      return;
+    }
 
     const spritePath = this.getCharacterSprite(speaker, expression);
     if (spritePath) {
